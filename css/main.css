@@ -1,12 +1,7 @@
 /* BASE STYLES */
 
-body {
-  font-family: 'Montserrat', 'Helvetica' sans-serif;
-  color: #2b2b2b;
-}
-
 #about, #work, #contact {
-  height: 500px;
+  	height: 500px;
 }
 
 /* GRID */
@@ -17,36 +12,34 @@ body {
 }
 
 .full-width {
-  width: 1200px;
-  margin: 0 auto;
+  	width: 1200px;
+  	margin: 0 auto;
 }
 
 .half-width {
-  width: 600px;
-  float: left;
+  	width: 600px;
+ 	float: left;
 }
 
 .third-width {
-  width: 400px;
-  float: left;
+  	width: 400px;
+  	float: left;
 }
 
 /* HEADER */
 
 header {
     height: 475px;
-    background-size: cover;
-	background: linear-gradient(#63798b, #72bdc0, #cacfa5, #ea935c);
+	background: linear-gradient(#415060, #63798b, #72bdc0, #ffffff);
 }
 
 header h1 {
-  	color: white;
+  	color: #cacfa5;
 	font-family: 'Montserrat', 'Helvetica', 'Arial', serif;
-  	font-size: 26px;
+  	font-size: 30px;
 	letter-spacing: 5px;
   	padding: 50px 0 65px 50px;
 	text-transform: uppercase;
-	text-weight: 500;
 }
 
 nav {
@@ -57,13 +50,12 @@ nav ul li{
     display: inline-block;
 }
 nav ul li a {
-    color: white;
+    color: #cacfa5;
 	font-family: 'Montserrat', 'Helvetica', 'Arial', serif;
-	font-size: 18px;
+	font-size: 21px;
 	letter-spacing: 3px;
     padding-left: 50px;
 	text-transform: uppercase;
-	text-weight: 300;
     text-decoration: none;
 }
 
@@ -71,15 +63,15 @@ header h2 {
     width: 1000px;
     clear: both;
 	font-family: 'Pompiere', 'sans-serif';
-    font-size: 43px;
+    font-size: 40px;
     line-height: 54px;
-    color: #e9f4f5;
+    color: #63798b;
     padding: 140px 0 20px 50px;
 }
 header h2 span {
 	color: white;
 	font-family: 'Montserrat', 'Helvetica', 'Arial', serif;
-	font-size: 30px;
+	font-size: 26px;
 	font-weight: 500;
 	letter-spacing: 7px;
 	text-transform: uppercase;	
@@ -96,7 +88,7 @@ header h2 span {
 
 #about h2 {
 	font-family: 'Montserrat', 'Helvetica', 'Arial', serif;
-	font-size: 30px;
+	font-size: 26px;
 	font-weight: 500;
 	letter-spacing: 7px;
 	text-transform: uppercase;
