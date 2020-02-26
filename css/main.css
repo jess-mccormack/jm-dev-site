@@ -7,7 +7,7 @@
 /* GRID */
 
 .container {
-	width: 1600px;
+	width: 1400px;
 	margin: auto
 }
 
@@ -31,6 +31,7 @@
 header {
     height: 475px;
 	background: linear-gradient(#415060, #63798b, #72bdc0, #ffffff);
+	width: 100%;
 }
 
 header h1 {
